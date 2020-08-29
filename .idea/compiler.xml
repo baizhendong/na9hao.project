@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mavendemo" />
+        <module name="o2o" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mavendemo" target="1.8" />
+      <module name="o2o" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
