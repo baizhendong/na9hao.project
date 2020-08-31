@@ -8,6 +8,8 @@ import java.util.Date;
  */
 public class Shop {
     private Long shopId;
+    //店铺名称
+    private String shopName;
     //店铺描述
     private String shopDesc;
     //店铺地址
@@ -39,6 +41,14 @@ public class Shop {
 
     public void setShopId(Long shopId) {
         this.shopId = shopId;
+    }
+
+    public String getShopName() {
+        return shopName;
+    }
+
+    public void setShopName(String shopName) {
+        this.shopName = shopName;
     }
 
     public String getShopDesc() {
